@@ -1,5 +1,9 @@
+:root{
+    --main-color: #333333;
+}
+
 span{
-    color: #333333;
+    color: var(--main-color);
     font-weight: bold;
     text-transform: uppercase;
     line-height: 5.5;
@@ -9,8 +13,21 @@ span{
 }
 
 img{
+    position: absolute;
     display: block;
-    width: 35%;
-    height: 35%;
-    padding: 50px 0 0 40px;
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h1{
+    position: absolute;
+    color: var(--main-color);
+    margin-left: 700px;
+    top: 150px;
+    font-family: 'Space Mono';
+    font-size: 40px;
+    word-spacing: 0.8em;
 }
