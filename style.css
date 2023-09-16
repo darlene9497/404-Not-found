@@ -1,5 +1,7 @@
 :root{
     --main-color: #333333;
+    --other-color: #4F4F4F;
+    --white-color: white;
 }
 
 span{
@@ -30,4 +32,22 @@ h1{
     font-family: 'Space Mono';
     font-size: 40px;
     word-spacing: 0.8em;
+}
+
+p{
+    font-family: 'Space Mono';
+    color: var(--other-color);
+    margin-left: 700px;
+    margin-top: 220px;
+    flex: 1.9;
+}
+
+button{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    margin-left: 700px;
+    line-height: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
 }
